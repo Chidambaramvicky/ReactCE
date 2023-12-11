@@ -2,7 +2,7 @@ function FunctionComponents()
 {
     return(
         <div>
-            <h1>Hello worlf</h1>
+            <h1>Hello hi worlf</h1>
         </div>
     )
 }
