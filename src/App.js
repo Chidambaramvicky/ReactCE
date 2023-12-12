@@ -54,12 +54,19 @@
 import ClassComponents from "./Components/ClassComponents";
 import FunctionComponents from "./Components/FunctionComponents";
 import OneExport from "./Components/OneExport";
+import PropsFunctional from "./Day4/PropFunctional";
+import PropsClass from "./Day4/PropsClass";
+import StateClassCom from "./Day4/StateClassCom";
 export default function App(){
   return(
     <div>
-      <FunctionComponents/>
+      {/* <FunctionComponents/>
       <ClassComponents></ClassComponents>
-      <OneExport></OneExport>
+      <OneExport></OneExport> */}
+      <PropsFunctional name="Vicky" age="19"></PropsFunctional>
+      {/* <PropsFunctional age="19"></PropsFunctional> */}
+      <PropsClass sport="cricket"></PropsClass>
+      <StateClassCom ></StateClassCom>
     </div>
   )
 }
