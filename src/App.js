@@ -3,8 +3,8 @@
 
 
 // function App() {
-  //   return (
-    //     <div className='main'>
+//     return (
+//         <div className='main'>
 //      <img src="https://cdn.vectorstock.com/i/preview-1x/94/47/heart-logo-line-flat-web-app-icon-vector-20579447.webp" alt="vic" width='50' height='60'></img>
 //    <h1>LOGIN</h1>
 //     <table>
@@ -17,7 +17,7 @@
 //       <br></br>
 //       <br></br>
 //     <tr> <td><label>Password</label></td>
-//       <input type='test'></input></tr>
+//       <input type='password'></input></tr>
 //       <br></br>
 //       <br></br>
 //    <tr> <td><label>Age</label></td>
@@ -57,6 +57,8 @@ import OneExport from "./Components/OneExport";
 import PropsFunctional from "./Day4/PropFunctional";
 import PropsClass from "./Day4/PropsClass";
 import StateClassCom from "./Day4/StateClassCom";
+import StateFunction from "./Day4/StateFunction";
+import StateHoldObjects from "./Day4/StateHoldObjects";
 export default function App(){
   return(
     <div>
@@ -67,6 +69,8 @@ export default function App(){
       {/* <PropsFunctional age="19"></PropsFunctional> */}
       <PropsClass sport="cricket"></PropsClass>
       <StateClassCom ></StateClassCom>
+      <StateFunction></StateFunction>
+      <StateHoldObjects></StateHoldObjects>
     </div>
   )
 }
