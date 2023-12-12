@@ -11,6 +11,6 @@ export default function StateHoldObjects() {
       <h1>College name is {college.cname}</h1>
       <h1>College year is {college.year}</h1>
       <button onClick={changeDemo}>click me</button>
-    </div>
+    </div> 
   )
 }

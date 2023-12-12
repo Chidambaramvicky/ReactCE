@@ -54,11 +54,15 @@
 import ClassComponents from "./Components/ClassComponents";
 import FunctionComponents from "./Components/FunctionComponents";
 import OneExport from "./Components/OneExport";
+import DefaultProps from "./Day4/DefaultProps";
+import DynamicRendering from "./Day4/DynamicRendering";
+import Parent from "./Day4/ParentChildComunication";
 import PropsFunctional from "./Day4/PropFunctional";
 import PropsClass from "./Day4/PropsClass";
 import StateClassCom from "./Day4/StateClassCom";
 import StateFunction from "./Day4/StateFunction";
 import StateHoldObjects from "./Day4/StateHoldObjects";
+import TwoWayBinding from "./Day4/TwoWayBinding";
 export default function App(){
   return(
     <div>
@@ -66,11 +70,16 @@ export default function App(){
       <ClassComponents></ClassComponents>
       <OneExport></OneExport> */}
       <PropsFunctional name="Vicky" age="19"></PropsFunctional>
-      {/* <PropsFunctional age="19"></PropsFunctional> */}
+{/* <PropsFunctional age="19"></PropsFunctional> */}      
       <PropsClass sport="cricket"></PropsClass>
       <StateClassCom ></StateClassCom>
       <StateFunction></StateFunction>
       <StateHoldObjects></StateHoldObjects>
+      <Parent></Parent>
+      <DynamicRendering></DynamicRendering>
+      <TwoWayBinding></TwoWayBinding>
+      <DefaultProps name="India"></DefaultProps>
+      <DefaultProps></DefaultProps>
     </div>
   )
 }
