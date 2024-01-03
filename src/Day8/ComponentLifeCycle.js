@@ -17,7 +17,7 @@ export default class ComponentLifeCycle extends Component {
     }
     componentDidUpdate() {
         document.getElementById("id2").innerHTML = "current value " + this.state.favColor;
-
+ 
     }
     render() {
         return (
